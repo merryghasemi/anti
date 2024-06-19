@@ -1,0 +1,21 @@
+.hero-section {
+    background: url('/src/assets/Images/1.jpg');
+    background-size: cover; 
+    background-position: center; 
+    height: 50vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff; 
+    
+    
+  }
+
+  .hero-content {
+    padding: 50px; 
+    background-color: rgba(0, 0, 0, 0.6); 
+  }
+
+
+  

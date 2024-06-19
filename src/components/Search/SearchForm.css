@@ -1,0 +1,30 @@
+.input-group {
+   flex-wrap: nowrap !important;
+}
+
+
+.form-control,.form-select{
+   background-color: white !important;
+   border-radius: 0 !important;
+   border: none !important;
+   padding: 10px !important;
+}
+
+.item_se ul{
+   display: flex;
+   justify-content: center;
+   gap: 1rem;
+   padding: 1rem;
+}
+
+.item_se ul li{
+
+border: 1px solid #fff;
+padding: 0.3rem 0.5rem;
+border-radius: 5px;
+background-color: rgba(141, 168, 211, 0.238);
+cursor: pointer;
+}
+.item_se ul li a i{
+   padding-right: 5px;
+}

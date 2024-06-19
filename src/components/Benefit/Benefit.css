@@ -1,0 +1,13 @@
+
+ h2,h6,h5{
+    overflow-x: visible;
+}
+
+.benefit img{
+
+    width: 30%;
+    height: 30%;
+    object-fit: contain;
+    background-color: white;
+    padding: 0;
+}
