@@ -1,18 +1,90 @@
-
-*{
-    overflow-x: hidden;
+.navigation {
+    /* background: #fff; */
+    color: #fff;
+    border: none;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    margin: 0 15% !important;
+    /* background: #22C8E5; */
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+    /* border-radius: 6px; */
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    left: 2rem;
 }
-.login{
-     align-items: center;
+
+.navbar {
+    box-shadow: none !important;
+}
+
+.nav-link {
+
+    font-size: 16px !important;
     color: #fff !important;
-    font-weight: bold ;
+
+    font-weight: bold !important;
+}
+
+.login {
+    align-items: center;
+
+    font-weight: bold;
     display: flex;
     justify-content: center;
-   gap: 2rem;
+    gap: 2rem;
 }
 
-.btn{
+.logo img{
 
-    border: 1px solid #fff !important;
-    color: #fff !important;
+    width: 200px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

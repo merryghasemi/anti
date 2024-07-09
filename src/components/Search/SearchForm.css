@@ -15,6 +15,7 @@
    justify-content: center;
    gap: 1rem;
    padding: 1rem;
+   list-style: none;
 }
 
 .item_se ul li{
@@ -27,4 +28,39 @@ cursor: pointer;
 }
 .item_se ul li a i{
    padding-right: 5px;
+   text-decoration: none;
 }
+
+.item_se li::marker {
+   display: none !important;
+ }
+
+ .btn-blue{
+   background-color: #437EEB !important;
+ }
+
+ .form-outline,.form-select{
+   border: 1px solid black !important;
+ }
+
+
+ .container {
+   max-width: 800px; /* Adjust this value to make the form wider */
+ }
+ 
+ .form-select {
+   width: auto !important; /* Make the select element fit its content */
+   padding: 0.5rem; /* Add padding for better appearance */
+   padding: 0.75rem 1rem !important;
+ }
+ 
+ .form-outline .form-control {
+   font-size: 1.2rem; /* Increase font size for better visibility */
+   padding: 0.75rem 1rem; /* Adjust padding to make the input bigger */
+ }
+ 
+ .input-group .btn-blue {
+   padding: 0.75rem 1rem; /* Adjust button padding */
+   font-size: 1.2rem; /* Increase button font size */
+ }
+ 

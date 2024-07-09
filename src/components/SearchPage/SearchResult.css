@@ -1,0 +1,79 @@
+.checkbox-lg {
+    transform: scale(1.8);
+}
+.result_tb {
+    text-align: left;
+    border-bottom: 1px solid #9E9E9E;
+}
+.result_tb th {
+    color: #9E9E9E !important;
+    font-weight: normal;
+}
+.result_tb td {
+    padding: 0.4rem;
+}
+.result-wrapper {
+    position: relative;
+    margin-bottom: 20px;
+}
+.result-header {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: -25px;
+    left: 0;
+    margin: 10px;
+}
+.result-number {
+    font-size: 18px;
+    margin-right: 10px;
+}
+.save-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.result_tb {
+    width: 100%;
+    border-collapse: collapse;
+}
+.result_tb th,
+.result_tb td {
+    padding: 4px 0px;
+    text-align: left;
+}
+.save-icon {
+    width: 24px;
+}
+.save-icon-red {
+    background-color: red;
+}
+.show_detail {
+    background-color: transparent;
+    color: #437EEB;
+    border: none;
+    border-bottom: 1px solid #437EEB;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 1.5rem;
+
+  }
+  
+  .pagination-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    border-radius: 50px;
+  }
+  
+  .pagination-button.active {
+    background-color: #5c94b9;
+  }

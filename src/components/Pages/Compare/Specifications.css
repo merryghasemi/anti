@@ -1,0 +1,23 @@
+.spacific {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .spacific caption {
+    caption-side: top;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .spacific th,
+  .spacific td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .spacific th {
+    background-color: #f2f2f2;
+  }
+  

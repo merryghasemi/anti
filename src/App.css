@@ -1,8 +1,6 @@
-
-
 .App {
   text-align: center;
- 
+  font-family: 'Proxima Nova', sans-serif;
 }
 
 .App-logo {
@@ -35,7 +33,12 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+li::marker {
+  display: none;
 }

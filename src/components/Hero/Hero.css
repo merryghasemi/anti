@@ -1,7 +1,11 @@
 .hero-section {
-    background: url('/src/assets/Images/1.jpg');
+   
+  background: 
+  linear-gradient(rgba(2, 18, 40, 0.7), rgba(2, 29, 51, 0.7)), 
+  url('/src/assets/Images/slider.webp'); 
     background-size: cover; 
     background-position: center; 
+    background-repeat: no-repeat;
     height: 50vh; 
     display: flex;
     justify-content: center;
@@ -9,7 +13,8 @@
     text-align: center;
     color: #ffffff; 
     
-    
+
+
   }
 
   .hero-content {

@@ -1,0 +1,24 @@
+.compare-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px; /* اضافه کردن فاصله بین جداول */
+  }
+
+  .compare-table th{
+
+    font-size: 0.8rem;
+
+    width: 10%;
+  }
+  
+  .compare-table th,
+  .compare-table td {
+    padding: 4px; /* کاهش فاصله بین سلول‌ها */
+    text-align: left;
+  }
+  
+  .data-cell {
+    border: 1px solid black; /* حاشیه دور سلول‌های داده‌ها */
+  }
+  
+

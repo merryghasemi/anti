@@ -1,53 +1,55 @@
-
-import React, { Component } from 'react'
-import icon1 from './../../assets/Images/icon-post1.webp';
+import React, { Component } from 'react';
+import img1 from './../../assets/Images/retouch.jpg';
+import img2 from './../../assets/Images/reimagine-bg.jpg';
 
 import { Container } from 'react-bootstrap';
-
 import './Benefit.css';
 
 export default class Benefit extends Component {
-
-
-    render() {
-        return (
-            <>
-                <Container className='pt-5 pb-5 benefit'>
-                    <div className='text-center pt-5 pb-5'>
-
-                        <b>Benefit</b>
-                        <h2>Let’s make your ideas break through</h2>
-                        <p>Find the most up-to-date vocabulary of images, videos, signs, symbols, and fonts</p>
-
-                    </div>
-
-                    <div className='row'>
-                        <div className='col-3'>
-                            <img src={icon1} />
-                            <h2>Best quality or nothing</h2>
-                            <p>Download scroll-stopping images of the highest quality to make professional designs.</p>
-                        </div>
-                        <div className='col-3'>
-                            <img src={icon1} />
-                            <h2>Ready-to-use everything</h2>
-                            <p>Download scroll-stopping images of the highest quality to make professional designs.</p>
-                        </div>
-                        <div className='col-3'>
-                            <img src={icon1} />
-                            <h2>Fresh content every day</h2>
-                            <p>Download scroll-stopping images of the highest quality to make professional designs.</p>
-                        </div>
-                        <div className='col-3'>
-                            <img src={icon1} />
-                            <h2>If you can think of it, you can find it</h2>
-                            <p>Download scroll-stopping images of the highest quality to make professional designs.</p>
-                        </div>
-                    </div>
-                </Container>
-
-
-
-            </>
-        )
-    }
+  render() {
+    return (
+      <>
+        <Container className='pt-5 pb-5 benefit'>
+          <div className='row'>
+            <div className="col-md-3 mb-4">
+              <div className="card h-100">
+                <img src={img1} className="card-img-top" alt="Tool 1" />
+                <div className="card-body">
+                  <h5 className="card-title">Multiplex</h5>
+                  <p className="card-text">Description for tMultiplex.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3 mb-4">
+              <div className="card h-100">
+                <img src={img2} className="card-img-top" alt="Tool 2" />
+                <div className="card-body">
+                  <h5 className="card-title">Instruments</h5>
+                  <p className="card-text">Description for Instruments.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3 mb-4">
+              <div className="card h-100">
+                <img src="https://via.placeholder.com/300" className="card-img-top" alt="Tool 3" />
+                <div className="card-body">
+                  <h5 className="card-title">Knowledge Hub</h5>
+                  <p className="card-text">Description for Knowledge Hub.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3 mb-4">
+              <div className="card h-100">
+                <img src="https://via.placeholder.com/300" className="card-img-top" alt="Tool 4" />
+                <div className="card-body">
+                  <h5 className="card-title">Accessories</h5>
+                  <p className="card-text">Description for Accessories.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Container>
+      </>
+    );
+  }
 }
